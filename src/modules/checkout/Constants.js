@@ -1,0 +1,16 @@
+export const SET_PERSONAL_INFO = 'CheckoutState/SET_PERSONAL_INFO';
+export const SHIPPING_INFO_PERSISTED = 'CheckoutState/SHIPPING_INFO_PERSISTED';CREATE_ORDER
+export const PERSIST_SHIPPING_INFO = 'CheckoutState/PERSIST_SHIPPING_INFO';
+export const CREATE_ORDER = 'CheckoutState/CREATE_ORDER';
+export const ORDER_CREATED = 'CheckoutState/ORDER_CREATED';
+export const GET_ORDERS = 'CheckoutState/GET_ORDERS';
+export const GOT_ORDERS = 'CheckoutState/GOT_ORDERS';
+export const LOAD_DELIVERY_TIME_SLOTS = 'CheckoutState/LOAD_DELIVERY_TIME_SLOTS';
+export const LOADED_DELIVERY_TIME_SLOTS = 'CheckoutState/LOADED_DELIVERY_TIME_SLOTS';
+export const CANCEL_ORDER = 'CheckoutState/CANCEL_ORDER';
+export const CANCELED_ORDER = 'CheckoutState/CANCELED_ORDER';
+export const RESET_MEAT_ON_POYA = 'CheckoutState/RESET_MEAT_ON_POYA';
+export const PAYMENT_SUCCESS = 'CheckoutState/PAYMENT_SUCCESS';
+export const RESET_PAYMENT_SUCCESS = 'CheckoutState/RESET_PAYMENT_SUCCESS';
+export const APPLY_COUPON_CODE = 'CheckoutState/APPLY_COUPON_CODE';
+export const APPLIED_COUPON_CODE = 'CheckoutState/APPLIED_COUPON_CODE';

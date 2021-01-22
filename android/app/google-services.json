@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "379128478314",
+    "firebase_url": "https://endless-station-211816.firebaseio.com",
+    "project_id": "endless-station-211816",
+    "storage_bucket": "endless-station-211816.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379128478314:android:2cc884c4748e04d2",
+        "android_client_info": {
+          "package_name": "lk.bringme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379128478314-np0cggpkqomml1ivb7k64k9pdep26iam.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaO-gK7aUUTaNAd7An59GcufLNiExP3dU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

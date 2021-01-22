@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LeftDrawerViewController">
+            <connections>
+                <outlet property="tableView" destination="8Xv-kc-WfT" id="6lf-hO-JR4"/>
+                <outlet property="view" destination="F3U-tt-V4C" id="c0m-MZ-3l1"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="F3U-tt-V4C">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="No7-r0-7gJ">
+                    <rect key="frame" x="20" y="57" width="240" height="454"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-header" translatesAutoresizingMaskIntoConstraints="NO" id="tNR-K0-Psa">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="90.5"/>
+                        </imageView>
+                        <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XLf-hd-i4R">
+                            <rect key="frame" x="0.0" y="90.5" width="240" height="23"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="42" estimatedRowHeight="42" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8Xv-kc-WfT">
+                            <rect key="frame" x="0.0" y="113.5" width="240" height="340.5"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </tableView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="tNR-K0-Psa" firstAttribute="height" secondItem="No7-r0-7gJ" secondAttribute="height" multiplier="0.2" id="7TQ-lh-wkU"/>
+                        <constraint firstItem="XLf-hd-i4R" firstAttribute="height" secondItem="No7-r0-7gJ" secondAttribute="height" multiplier="0.05" id="scL-Uc-u2N"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="No7-r0-7gJ" firstAttribute="height" secondItem="F3U-tt-V4C" secondAttribute="height" multiplier="0.8" id="0Ap-QH-Fot"/>
+                <constraint firstItem="No7-r0-7gJ" firstAttribute="leading" secondItem="F3U-tt-V4C" secondAttribute="leading" constant="20" id="WLs-2a-nRx"/>
+                <constraint firstItem="No7-r0-7gJ" firstAttribute="centerY" secondItem="F3U-tt-V4C" secondAttribute="centerY" id="hB3-Gt-SF5"/>
+                <constraint firstItem="No7-r0-7gJ" firstAttribute="width" secondItem="F3U-tt-V4C" secondAttribute="width" multiplier="0.75" id="o8S-R9-ri3"/>
+            </constraints>
+            <point key="canvasLocation" x="31.5" y="816.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo-header" width="300" height="165"/>
+    </resources>
+</document>
